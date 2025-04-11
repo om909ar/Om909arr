@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Text, View, TouchableOpacity, ScrollView, StyleSheet } from 'react-native';
+import React, { useState } from 'react';
+import { Text, View, Button, ScrollView } from 'react';
 
 export default function App() {
   const [azkar, setAzkar] = useState('');
@@ -59,7 +60,7 @@ export default function App() {
   );
 }
 
-const styles = StyleSheet.create({
+const styles = styled-components.create({
   container: {
     flexGrow: 1,
     backgroundColor: '#f0b330',
